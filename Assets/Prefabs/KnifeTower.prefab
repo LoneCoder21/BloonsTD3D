@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4015421577080700319}
-  - component: {fileID: 5897999787877317586}
   - component: {fileID: 8819763715658982990}
   m_Layer: 0
   m_Name: KnifeTower
@@ -34,23 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5897999787877317586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4391700176426051365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89e58e17ccca86642a73d908b186c94d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 1
-  fireRate: 1
-  bulletPrefab: {fileID: 7906273100171583881, guid: ad9e2b133e91bee4889205bc3771b272,
-    type: 3}
-  firePoint: {fileID: 1135819807528751694}
 --- !u!23 &8819763715658982990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -100,6 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596363863860464839}
   - component: {fileID: 1665979780991448461}
+  - component: {fileID: 581362519805475825}
   - component: {fileID: 2754802098277798169}
   m_Layer: 0
   m_Name: default
@@ -130,6 +113,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719701948499386364}
   m_Mesh: {fileID: -2432090755550338912, guid: 1b5e530d66bedde4fba8f2d9c9b4cb60, type: 3}
+--- !u!114 &581362519805475825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719701948499386364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e58e17ccca86642a73d908b186c94d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 35
+  fireRate: 1
+  bulletPrefab: {fileID: 7906273100171583881, guid: ad9e2b133e91bee4889205bc3771b272,
+    type: 3}
+  firePoint: {fileID: 1135819807528751694}
 --- !u!23 &2754802098277798169
 MeshRenderer:
   m_ObjectHideFlags: 0
